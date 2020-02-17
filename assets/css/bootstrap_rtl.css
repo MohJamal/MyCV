@@ -1,0 +1,39 @@
+
+nav,
+#aboutUs,
+#features,
+#services,
+#portfolio,
+#contact,
+#footer,
+.loading-overlay{
+direction: rtl; /*Text (h2,h3 ...) direction goes from right-to-left -- You must add the direction feature to each section you want turn it to rtl not for the body because it will add extra horizental space*/
+}
+
+
+.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12{
+    
+float: right;
+    
+}
+
+
+.pull-left {
+    float: right !important;
+}
+
+.pull-right {
+    float: left !important;
+}
+
+.media-left, .media > .pull-left {
+    padding-left: 10px;
+}
+
+.list-unstyled {
+    padding-right: 0;
+}
+
+.footer .social-list li{
+    float: right !important;
+}
