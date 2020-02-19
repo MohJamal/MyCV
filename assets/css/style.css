@@ -69,35 +69,34 @@ transition-duration: 0.5s;
 opacity: 1;
       
 }
-
-
-#home .row .homeDesc{
+#home .row .homeDesc .desc{
 position: absolute;
 margin-top: 250px;
-z-index: 2;
+
 }
 
-#home .row .homeDesc .rec{
+
+#home .row .homeDesc .desc .rec{
 width: 68px;
 float: left;
-    
+
 
 
 }
 
 
-#home .row .homeDesc .rec span{
+#home .row .homeDesc .desc .rec span{
 width: 12px;
 height: 225px;
 display: inline-block;
 background-color: #01374d;
 margin-left: 15px;
-      
+       
 }
 
 
 
-#home .row .homeDesc .desc{  
+#home .row .homeDesc .desc .text{  
     float: right;
     width: calc(100% - 68px); 
     padding-left: 4px;
@@ -105,18 +104,18 @@ margin-left: 15px;
 } 
 
 
-#home .row .homeDesc .desc h3{
+#home .row .homeDesc .desc .text h3{
 font-size: 24px;
       
 }
 
-#home .row .homeDesc .desc h1{
+#home .row .homeDesc .desc .text h1{
 
 font-size: 48px;
 margin-bottom: 65px;    
       
 }
-#home .row .homeDesc .desc p{
+#home .row .homeDesc .desc .text p{
 font-size: 24px;
 font-weight: bold; 
 }
@@ -124,8 +123,56 @@ font-weight: bold;
 
 #home .row .img{
 text-align: right;
+
+}
+
+
+#home .row .homeDesc img{
+float: right;
 z-index: 1;
 }
+
+#home .row .down-button a{
+width: 70px;
+height: 70px;
+display: inline-block;
+border-radius: 50%;
+
+padding: 13px;
+text-decoration: none;
+transition-duration: 0.7s;
+}
+
+
+
+
+#home .row .down-button .rec{
+width: 14px;
+height: 45px;
+display: inline-block;
+background-color: #01374d;
+
+}
+
+#home .row .down-button .circle{
+width: 25px;
+height: 25px;
+display: inline-block;
+background-color: #01374d;
+border-radius: 50%;
+
+margin: 10px -10px;
+    
+}
+
+#home .row .down-button a:hover{
+background-color: #01374d;
+}
+
+#home .row .down-button a:hover > span{
+background-color:#82ca9c;
+}
+
 
 /*Home End*/
   
