@@ -1,7 +1,13 @@
 body {
     font-family: 'Perpetua Titling MT', 'sans-serif';
+    padding-top: 83px;
+    line-height: unset;
+    color: #01374d;
 }
 
+.clear{
+    clear: both;
+}
 
 /*Navbar Start*/
 
@@ -30,9 +36,98 @@ nav {
 
 
 /*Navbar End*/
+
+
+
+
    
-   /*Home Start*/
-   /*Home End*/
+/*Home Start*/
+#home{
+background-color: #82ca9c;
+text-shadow: 2px 2px #fff;
+
+    
+}
+
+#home .row .accounts{
+background-color: #114956;    
+}
+
+#home .row .accounts a{
+display: inline-block;
+height: 60px;
+width: 60px;
+border-radius: 50%;
+overflow: hidden;
+opacity: 0.4;
+margin: 5px 17px;    
+transition-duration: 0.5s; 
+
+}
+
+#home .row .accounts a:hover{
+opacity: 1;
+      
+}
+
+
+#home .row .homeDesc{
+position: absolute;
+margin-top: 250px;
+z-index: 2;
+}
+
+#home .row .homeDesc .rec{
+width: 68px;
+float: left;
+    
+
+
+}
+
+
+#home .row .homeDesc .rec span{
+width: 12px;
+height: 225px;
+display: inline-block;
+background-color: #01374d;
+margin-left: 15px;
+      
+}
+
+
+
+#home .row .homeDesc .desc{  
+    float: right;
+    width: calc(100% - 68px); 
+    padding-left: 4px;
+    
+} 
+
+
+#home .row .homeDesc .desc h3{
+font-size: 24px;
+      
+}
+
+#home .row .homeDesc .desc h1{
+
+font-size: 48px;
+margin-bottom: 65px;    
+      
+}
+#home .row .homeDesc .desc p{
+font-size: 24px;
+font-weight: bold; 
+}
+
+
+#home .row .img{
+text-align: right;
+z-index: 1;
+}
+
+/*Home End*/
   
    /*About me Start*/
    /*About me  End*/
