@@ -3,11 +3,69 @@ body {
     padding-top: 83px;
     line-height: unset;
     color: #01374d;
+    text-transform: uppercase;
 }
 
 .clear{
     clear: both;
 }
+#home,
+#contact
+{
+text-shadow: 2px 2px #fff;
+}
+
+h3{
+font-size: 24px;     
+}
+
+h1,h2{
+font-size: 48px;  
+ margin-bottom: 65px;    
+}
+p{
+font-size: 24px;
+font-weight: bold; 
+}
+
+.down-button a{
+width: 70px;
+height: 70px;
+display: inline-block;
+border-radius: 50%;
+padding: 13px;
+text-decoration: none;
+transition-duration: 0.7s;
+}
+
+
+.down-button .rec{
+width: 14px;
+height: 45px;
+display: inline-block;
+background-color: #01374d;
+
+}
+
+.down-button .circle{
+width: 25px;
+height: 25px;
+display: inline-block;
+background-color: #01374d;
+border-radius: 50%;
+margin: 10px -10px;
+}
+
+.down-button a:hover{
+background-color: #01374d;
+    
+}
+
+.down-button a:hover > span{
+background-color:#82ca9c;
+}
+
+
 
 /*Navbar Start*/
 
@@ -15,7 +73,7 @@ nav {
     background-color: #01374d;
     font-size: 24px;
     font-weight: lighter;
-    text-transform: uppercase;
+
 }
 
 .navbar-dark .navbar-toggler {
@@ -43,10 +101,7 @@ nav {
    
 /*Home Start*/
 #home{
-background-color: #82ca9c;
-text-shadow: 2px 2px #fff;
-
-    
+background-color: #82ca9c;    
 }
 
 #home .row .accounts{
@@ -104,21 +159,11 @@ margin-left: 15px;
 } 
 
 
-#home .row .homeDesc .desc .text h3{
-font-size: 24px;
-      
-}
+   
 
-#home .row .homeDesc .desc .text h1{
 
-font-size: 48px;
-margin-bottom: 65px;    
-      
-}
-#home .row .homeDesc .desc .text p{
-font-size: 24px;
-font-weight: bold; 
-}
+
+
 
 
 #home .row .img{
@@ -132,53 +177,49 @@ float: right;
 z-index: 1;
 }
 
-#home .row .down-button a{
-width: 70px;
-height: 70px;
-display: inline-block;
-border-radius: 50%;
-
-padding: 13px;
-text-decoration: none;
-transition-duration: 0.7s;
-}
-
-
-
-
-#home .row .down-button .rec{
-width: 14px;
-height: 45px;
-display: inline-block;
-background-color: #01374d;
-
-}
-
-#home .row .down-button .circle{
-width: 25px;
-height: 25px;
-display: inline-block;
-background-color: #01374d;
-border-radius: 50%;
-
-margin: 10px -10px;
-    
-}
-
-#home .row .down-button a:hover{
-background-color: #01374d;
-    
-}
-
-#home .row .down-button a:hover > span{
-background-color:#82ca9c;
-}
-
-
 /*Home End*/
   
-   /*About me Start*/
-   /*About me  End*/
+/*About me Start*/
+#aboutMe .row{
+padding-top: 150px;
+}
+
+#aboutMe .row .col-lg-5{
+width: 420px;
+background-color: #01374d;
+}
+
+#aboutMe .row .col-lg-7{
+padding-top: 200px;
+} 
+
+#aboutMe .row .col-lg-7 .rec{
+float: left;
+width: 62px;
+margin-right: 10px;
+}
+#aboutMe .row .col-lg-7 .rec span{
+width: 12px;
+height: 225px;
+display: inline-block;
+background-color: #01374d;
+margin-left: 15px;     
+}
+
+#aboutMe .row .col-lg-7 .text{
+float: right;
+width: calc(98% - 62px); 
+}
+
+#aboutMe .row .col-lg-7 .text h2{
+padding-right: calc(10%);
+}
+
+
+#aboutMe .row .down-button{
+margin-top: 80px;
+}
+/*About me  End*/
   
    /*Services Start*/
    /*Services End*/
@@ -187,6 +228,12 @@ background-color:#82ca9c;
    /*Portfolio End*/
   
    /*Contact Start*/
+#contact{
+background-color: #82ca9c;
+
+
+    
+}
    /*Contact End*/
 
 
